@@ -166,7 +166,7 @@ export default function NewUsers() {
             isAsc={isAsc}
             headers={headers}
             rows={
-              <NewUserTableData data={currentItems} refetchData={refetchData} />
+              <NewUserTableData contactForm={true}  data={currentItems} refetchData={refetchData} />
             }
             onSort={handleSort}
           />
